@@ -44,11 +44,11 @@ Only wheat works; other sheep foods have no effect on a sheared sheep's wool. Th
 
 | | NeoForge | Forge | Fabric |
 |---|---|---|---|
-| Minecraft | 1.21.1 | 1.21.1 | 1.21 or 1.21.1 |
-| Loader | NeoForge 21.1.1 or newer | Forge 52.0.0 or newer | Fabric Loader 0.15.10 or newer |
-| Jar | `sheepwoolregrowth-neoforge-1.21.1-<version>.jar` | `sheepwoolregrowth-forge-1.21.1-<version>.jar` | `sheepwoolregrowth-fabric-1.21-1.21.1-<version>.jar` |
+| Minecraft | 1.21.11 | 1.21.11 | 1.21.11 |
+| Loader | NeoForge 21.11.42 or newer | Forge 61.0.1 or newer | Fabric Loader 0.17.3 or newer |
+| Jar | `sheepwoolregrowth-neoforge-1.21.11-<version>.jar` | `sheepwoolregrowth-forge-1.21.11-<version>.jar` | `sheepwoolregrowth-fabric-1.21.11-<version>.jar` |
 
-On Minecraft 1.21.1, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your server's loader.
+On Minecraft 1.21.11, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your server's loader.
 
 The Fabric version does not need Fabric API.
 
