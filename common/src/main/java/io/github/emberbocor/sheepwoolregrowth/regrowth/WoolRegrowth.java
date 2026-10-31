@@ -19,7 +19,9 @@ public final class WoolRegrowth {
             return false;
         }
 
-        stack.consume(1, player);
+        if (!player.getAbilities().instabuild) {
+            stack.shrink(1);
+        }
         sheep.ate();
         sheep.level().broadcastEntityEvent(sheep, EAT_ANIMATION_EVENT);
         sheep.playSound(SoundEvents.GENERIC_EAT);

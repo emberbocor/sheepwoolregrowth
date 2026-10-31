@@ -22,6 +22,5 @@ plugins {
 
 rootProject.name = 'sheepwoolregrowth'
 include('common')
-include('neoforge')
-include('fabric')
 include('forge')
+include('fabric')
